@@ -1,0 +1,41 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts.css');
+
+.page {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: Inter, Arial, sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 15px;  
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.content__head {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content__text {
+    border: 2px solid #E6E8EC;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.content__image {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E6E8EC;
+}
